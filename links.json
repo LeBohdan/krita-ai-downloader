@@ -1,0 +1,803 @@
+[
+  {
+    "name": "CLIP Vision",
+    "files": [
+      {
+        "filename": "clip-vision_vit-h.safetensors",
+        "path": "models/clip_vision",
+        "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors"
+      }
+    ],
+    "tags": [
+      "cv",
+      "sd15",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "NMKD Superscale",
+    "files": [
+      {
+        "filename": "4x_NMKD-Superscale-SP_178000_G.pth",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth"
+      }
+    ],
+    "tags": [
+      "up",
+      "all"
+    ]
+  },
+  {
+    "name": "OmniSR Superscale",
+    "files": [
+      {
+        "filename": "OmniSR_X2_DIV2K.safetensors",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X2_DIV2K.safetensors"
+      },
+      {
+        "filename": "OmniSR_X3_DIV2K.safetensors",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X3_DIV2K.safetensors"
+      },
+      {
+        "filename": "OmniSR_X4_DIV2K.safetensors",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/Acly/Omni-SR/resolve/main/OmniSR_X4_DIV2K.safetensors"
+      }
+    ],
+    "tags": [
+      "up",
+      "all"
+    ]
+  },
+  {
+    "name": "ControlNet Inpaint",
+    "files": [
+      {
+        "filename": "control_v11p_sd15_inpaint_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Unblur",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "IP-Adapter (SD1.5)",
+    "files": [
+      {
+        "filename": "ip-adapter_sd15.safetensors",
+        "path": "models/ipadapter",
+        "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "sd15"
+    ]
+  },
+  {
+    "name": "IP-Adapter (SDXL)",
+    "files": [
+      {
+        "filename": "ip-adapter_sdxl_vit-h.safetensors",
+        "path": "models/ipadapter",
+        "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "Hyper-SD LoRA (SD1.5)",
+    "files": [
+      {
+        "filename": "Hyper-SD15-8steps-CFG-lora.safetensors",
+        "path": "models/loras",
+        "url": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors"
+      }
+    ],
+    "tags": [
+      "lora",
+      "sd15"
+    ]
+  },
+  {
+    "name": "Hyper-SD LoRA (SDXL)",
+    "files": [
+      {
+        "filename": "Hyper-SDXL-8steps-CFG-lora.safetensors",
+        "path": "models/loras",
+        "url": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors"
+      }
+    ],
+    "tags": [
+      "lora",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "Fooocus Inpaint",
+    "files": [
+      {
+        "filename": "fooocus_inpaint_head.pth",
+        "path": "models/inpaint",
+        "url": "https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth"
+      },
+      {
+        "filename": "inpaint_v26.fooocus.patch",
+        "path": "models/inpaint",
+        "url": "https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch"
+      }
+    ],
+    "tags": [
+      "inp",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "MAT Inpaint",
+    "files": [
+      {
+        "filename": "MAT_Places512_G_fp16.safetensors",
+        "path": "models/inpaint",
+        "url": "https://huggingface.co/Acly/MAT/resolve/main/MAT_Places512_G_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "inp",
+      "all"
+    ]
+  },
+  {
+    "name": "Easy Negative",
+    "files": [
+      {
+        "filename": "EasyNegative.safetensors",
+        "path": "models/embeddings",
+        "url": "https://huggingface.co/embed/EasyNegative/resolve/main/EasyNegative.safetensors"
+      }
+    ],
+    "tags": [
+      "emb",
+      "sd15"
+    ]
+  },
+  {
+    "name": "Clip-L",
+    "files": [
+      {
+        "filename": "clip_l.safetensors",
+        "path": "models/text_encoders",
+        "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+      }
+    ],
+    "tags": [
+      "te",
+      "flux"
+    ]
+  },
+  {
+    "name": "T5-XXL",
+    "files": [
+      {
+        "filename": "t5-v1_1-xxl-encoder-Q5_K_M.gguf",
+        "path": "models/text_encoders",
+        "url": "https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q5_K_M.gguf"
+      }
+    ],
+    "tags": [
+      "te",
+      "flux"
+    ]
+  },
+  {
+    "name": "VAE (Flux)",
+    "files": [
+      {
+        "filename": "flux_vae.safetensors",
+        "path": "models/vae",
+        "url": "https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/resolve/main/split_files/vae/ae.safetensors"
+      }
+    ],
+    "tags": [
+      "vae",
+      "flux"
+    ]
+  },
+  {
+    "name": "ControlNet Scribble",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11p_sd15_scribble_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_scribble_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Line Art",
+    "files": [
+      {
+        "filename": "control_v11p_sd15_lineart_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Soft Edge",
+    "files": [
+      {
+        "filename": "control_v11p_sd15_softedge_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Canny Edge",
+    "files": [
+      {
+        "filename": "control_v11p_sd15_canny_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Depth",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11f1p_sd15_depth_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1p_sd15_depth_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Normal",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11p_sd15_normalbae_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_normalbae_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Pose",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11p_sd15_openpose_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_openpose_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Segmentation",
+    "files": [
+      {
+        "filename": "control_lora_rank128_v11p_sd15_seg_fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11p_sd15_seg_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Stencil",
+    "files": [
+      {
+        "filename": "control_v1p_sd15_qrcode_monster.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/control_v1p_sd15_qrcode_monster.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sd15"
+    ]
+  },
+  {
+    "name": "IP-Adapter Face (SD1.5)",
+    "files": [
+      {
+        "filename": "ip-adapter-faceid-plusv2_sd15.bin",
+        "path": "models/ipadapter",
+        "url": "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+      },
+      {
+        "filename": "ip-adapter-faceid-plusv2_sd15_lora.safetensors",
+        "path": "models/loras",
+        "url": "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "sd15"
+    ]
+  },
+  {
+    "name": "ControlNet Universal (XL)",
+    "files": [
+      {
+        "filename": "xinsir-controlnet-union-sdxl-1.0-promax.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "ControlNet Stencil (XL)",
+    "files": [
+      {
+        "filename": "control_v1p_sdxl_qrcode_monster.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/monster-labs/control_v1p_sdxl_qrcode_monster/resolve/main/diffusion_pytorch_model.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "IP-Adapter Face (XL)",
+    "files": [
+      {
+        "filename": "ip-adapter-faceid-plusv2_sdxl.bin",
+        "path": "models/ipadapter",
+        "url": "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin"
+      },
+      {
+        "filename": "ip-adapter-faceid-plusv2_sdxl_lora.safetensors",
+        "path": "models/loras",
+        "url": "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "ControlNet Universal (Flux)",
+    "files": [
+      {
+        "filename": "FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "flux"
+    ]
+  },
+  {
+    "name": "ControlNet Inpaint (Flux)",
+    "files": [
+      {
+        "filename": "FLUX.1-dev-Controlnet-Inpainting-Beta.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta/resolve/main/diffusion_pytorch_model.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "flux"
+    ]
+  },
+  {
+    "name": "Control Reference (Flux)",
+    "files": [
+      {
+        "filename": "sigclip_vision_patch14_384.safetensors",
+        "path": "models/clip_vision",
+        "url": "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors"
+      },
+      {
+        "filename": "flux1-redux-dev.safetensors",
+        "path": "models/style_models",
+        "url": "https://files.interstice.cloud/models/flux1-redux-dev.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "flux"
+    ]
+  },
+  {
+    "name": "Turbo LoRA (Flux)",
+    "files": [
+      {
+        "filename": "FLUX.1-Turbo-Alpha.safetensors",
+        "path": "models/loras",
+        "url": "https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/resolve/main/diffusion_pytorch_model.safetensors"
+      }
+    ],
+    "tags": [
+      "lora",
+      "flux"
+    ]
+  },
+  {
+    "name": "ControlNet Scribble (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-scribble_pidinet.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-scribble_pidinet/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Line Art (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-lineart_anime.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-lineart_anime/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Soft Edge (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-softedge_hed.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-softedge_hed/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Canny (Illustrious)",
+    "files": [
+      {
+        "filename": "noob_sdxl_controlnet_canny.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-canny/resolve/main/noob_sdxl_controlnet_canny.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Depth (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-depth_midas-v1-1.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-depth_midas-v1-1/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Normal (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-normal.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-normal/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Pose (Illustrious)",
+    "files": [
+      {
+        "filename": "noobaiXLControlnet_openposeModel.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Laxhar/noob_openpose/resolve/main/openpose_pre.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "ControlNet Unblur (Illustrious)",
+    "files": [
+      {
+        "filename": "noob-sdxl-controlnet-tile.fp16.safetensors",
+        "path": "models/controlnet",
+        "url": "https://huggingface.co/Eugeoter/noob-sdxl-controlnet-tile/resolve/main/diffusion_pytorch_model.fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cn",
+      "illu"
+    ]
+  },
+  {
+    "name": "CLIP Vision G (for IP-Adapter)",
+    "files": [
+      {
+        "filename": "clip-vision_vit-g.safetensors",
+        "path": "models/clip_vision",
+        "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors"
+      }
+    ],
+    "tags": [
+      "cv",
+      "illu"
+    ]
+  },
+  {
+    "name": "IP-Adapter (Illustrious)",
+    "files": [
+      {
+        "filename": "noobIPAMARK1_mark1.safetensors",
+        "path": "models/ipadapter",
+        "url": "https://huggingface.co/r3gm/noob-ipa/resolve/main/model_G/noobIPAMARK1_mark1.safetensors"
+      }
+    ],
+    "tags": [
+      "ipa",
+      "illu"
+    ]
+  },
+  {
+    "name": "Serenity (SD1.5 - Photography)",
+    "files": [
+      {
+        "filename": "serenity_v21Safetensors.safetensors",
+        "path": "models/checkpoints",
+        "url": "https://huggingface.co/Acly/SD-Checkpoints/resolve/main/serenity_v21Safetensors.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "sd15"
+    ]
+  },
+  {
+    "name": "DreamShaper (SD1.5 - Artwork)",
+    "files": [
+      {
+        "filename": "dreamshaper_8.safetensors",
+        "path": "models/checkpoints",
+        "url": "https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "sd15"
+    ]
+  },
+  {
+    "name": "RealVis (SDXL - Photography)",
+    "files": [
+      {
+        "filename": "RealVisXL_V5.0_fp16.safetensors",
+        "path": "models/checkpoints",
+        "url": "https://huggingface.co/SG161222/RealVisXL_V5.0/resolve/main/RealVisXL_V5.0_fp16.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "ZavyChroma (SDXL - Artwork)",
+    "files": [
+      {
+        "filename": "zavychromaxl_v80.safetensors",
+        "path": "models/checkpoints",
+        "url": "https://huggingface.co/misri/zavychromaxl_v80/resolve/main/zavychromaxl_v80.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "sdxl"
+    ]
+  },
+  {
+    "name": "NoobAI XL (Illustrious - Anime)",
+    "files": [
+      {
+        "filename": "NoobAI-XL-Vpred-v1.0.safetensors",
+        "path": "models/checkpoints",
+        "url": "https://huggingface.co/Laxhar/noobai-XL-Vpred-1.0/resolve/main/NoobAI-XL-Vpred-v1.0.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "illu_v"
+    ]
+  },
+  {
+    "name": "Flux Krea",
+    "files": [
+      {
+        "filename": "flux1-krea-dev_float8_e4m3fn_learned_svd.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/Clybius/FLUX.1-Krea-dev-scaled-fp8/resolve/main/flux1-krea-dev_float8_e4m3fn_learned_svd.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "Flux Krea [Nunchaku]",
+    "files": [
+      {
+        "filename": "svdq-int4_r32-flux.1-krea-dev.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/nunchaku-tech/nunchaku-flux.1-krea-dev/resolve/main/svdq-int4_r32-flux.1-krea-dev.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "Flux Krea [Nunchaku-fp4]",
+    "files": [
+      {
+        "filename": "svdq-fp4_r32-flux.1-krea-dev.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/nunchaku-tech/nunchaku-flux.1-krea-dev/resolve/main/svdq-fp4_r32-flux.1-krea-dev.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "Flux Kontext",
+    "files": [
+      {
+        "filename": "flux1-kontext-dev-fp8-e4m3fn.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/6chan/flux1-kontext-dev-fp8/resolve/main/flux1-kontext-dev-fp8-e4m3fn.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "Flux Kontext [Nunchaku]",
+    "files": [
+      {
+        "filename": "svdq-int4_r32-flux.1-kontext-dev.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/nunchaku-tech/nunchaku-flux.1-kontext-dev/resolve/main/svdq-int4_r32-flux.1-kontext-dev.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "Flux Kontext [Nunchaku-fp4]",
+    "files": [
+      {
+        "filename": "svdq-fp4_r32-flux.1-kontext-dev.safetensors",
+        "path": "models/diffusion_models",
+        "url": "https://huggingface.co/nunchaku-tech/nunchaku-flux.1-kontext-dev/resolve/main/svdq-fp4_r32-flux.1-kontext-dev.safetensors"
+      }
+    ],
+    "tags": [
+      "cp",
+      "flux"
+    ]
+  },
+  {
+    "name": "HAT Super-Resolution (quality)",
+    "files": [
+      {
+        "filename": "HAT_SRx4_ImageNet-pretrain.pth",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/Acly/hat/resolve/main/HAT_SRx4_ImageNet-pretrain.pth"
+      }
+    ],
+    "tags": [
+      "up",
+      "all"
+    ]
+  },
+  {
+    "name": "Real HAT GAN Super-Resolution (sharper)",
+    "files": [
+      {
+        "filename": "Real_HAT_GAN_sharper.pth",
+        "path": "models/upscale_models",
+        "url": "https://huggingface.co/Acly/hat/resolve/main/Real_HAT_GAN_sharper.pth"
+      }
+    ],
+    "tags": [
+      "up",
+      "all"
+    ]
+  }
+]
